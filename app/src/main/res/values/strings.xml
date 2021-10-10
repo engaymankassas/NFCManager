@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">NFC</string>
+    <string name="Pay2Dollar">Pay 2$</string>
+    <string name="Pay5Dollar">Pay 5$</string>
+    <string name="Reset">Reset</string>
+    <string name="connection_error">Exchange Connextion Failed</string>
+    <string name="transactionView">View Cards Trancasction</string>
+</resources>

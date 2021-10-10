@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".TransactionsViewActivity">
+
+
+    <androidx.core.widget.NestedScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+>
+        <TableLayout
+            android:layout_marginTop="10dp"
+            android:id="@+id/transactionsTable"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TableRow
+                android:layout_height="wrap_content"
+                android:layout_width="match_parent"
+                android:id="@+id/table_row1"
+                android:padding="10dp">
+
+                <TextView
+                    android:id="@+id/TransactionNotxt"
+                    android:fontFamily="serif"
+                    android:layout_height="wrap_content"
+                    android:layout_width="match_parent"
+                    android:layout_weight="1"
+                    android:textColor="#000"
+                    android:text="TransNo"/>
+                <TextView
+                    android:id="@+id/BalanceNotxt"
+                    android:textColor="#000"
+                    android:fontFamily="serif"
+                    android:layout_height="wrap_content"
+                    android:layout_width="match_parent"
+                    android:layout_weight="1"
+                    android:text="No"/>
+
+
+                <TextView
+                    android:id="@+id/insertDatetxt"
+                    android:textColor="#000"
+                    android:fontFamily="serif"
+                    android:layout_height="wrap_content"
+                    android:layout_width="match_parent"
+                    android:layout_weight="1"
+                    android:text="insertDate"/>
+
+                <TextView
+                    android:textColor="#000"
+                    android:id="@+id/oldUsdtxt"
+                    android:fontFamily="serif"
+                    android:layout_height="wrap_content"
+                    android:layout_width="match_parent"
+                    android:layout_weight="1"
+                    android:text="OldUSD"/>
+                <TextView
+                    android:textColor="#000"
+                    android:id="@+id/NewUsdtxt"
+                    android:fontFamily="serif"
+                    android:layout_height="wrap_content"
+                    android:layout_width="match_parent"
+                    android:layout_weight="1"
+                    android:text="NewUSD"/>
+                <TextView
+                    android:textColor="#000"
+                    android:id="@+id/newEurtxt"
+                    android:fontFamily="serif"
+                    android:layout_height="wrap_content"
+                    android:layout_width="match_parent"
+                    android:layout_weight="1"
+                    android:text="NewEUR"/>
+                <TextView
+                    android:textColor="#000"
+                    android:id="@+id/exchangetxt"
+                    android:fontFamily="serif"
+                    android:layout_height="wrap_content"
+                    android:layout_width="match_parent"
+                    android:layout_weight="1"
+                    android:text="EXRate"/>
+
+            </TableRow>
+        </TableLayout>
+
+    </androidx.core.widget.NestedScrollView>
+</LinearLayout>
